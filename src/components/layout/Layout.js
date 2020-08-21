@@ -8,10 +8,10 @@ import {
             NavLink,
         } from "react-router-dom";
 import Container from "react-bootstrap/Container";
+import Logo from "../../images/logo-yP.png";
 import Portfolio from "../portfolio/Portfolio";
 import Contact from "../contact/Contact";
 import Resume from "../resume/Resume";
-import FadeContainer from "../fade/FadeContainer";
 
 function Layout({ children }) {
     return (
@@ -19,22 +19,21 @@ function Layout({ children }) {
         <Router>    
             <Navbar bg="light" variant="light" expand="lg">
                 <NavLink to="/" exact>
-                    <Navbar.Brand href="/">BOIP</Navbar.Brand>
+                    <Navbar.Brand to="/"> 
+                        <img src={Logo} alt="website logo" />
+                    </Navbar.Brand>
                 </NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/" exact className="nav-link">
-                            Portfolio
-                        </Nav.Link>
-                        <Nav.Link href="/Contact" className="nav-link">
+                        <NavLink to="/" exact className="nav-link">
+                            Porfolio
+                        </NavLink>
+                        <NavLink to="/" exact className="nav-link">
                             Contact
-                        </Nav.Link>
-                        <Nav.Link href="/Resume" className="nav-link">
+                        </NavLink>
+                        <NavLink to="/" exact className="nav-link">
                             Resume
-                        </Nav.Link>
-                        <NavLink to="/fade" className="nav-link">
-                            Fade
                         </NavLink>
                     </Nav>
                 </Navbar.Collapse>
@@ -42,9 +41,8 @@ function Layout({ children }) {
             <Container>
                 <Switch>
                     <Route path="/" exact compontent={Portfolio} />
-                    <Route path="/Contact" compontent={Contact} />
-                    <Route path="/Resume" compontent={Resume} />
-                    <Route path="/Fade" compontent={FadeContainer} />
+                    <Route path="/Contact" exact compontent={Contact} />
+                    <Route path="/Resume" exact compontent={Resume} />
                 </Switch>
             </Container>
             <div className="layout">
