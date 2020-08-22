@@ -3,7 +3,6 @@ import Heading from "./components/layout/Heading";
 import Paragraph from "./components/layout/Paragraph";
 import Layout from "./components/layout/Layout";
 import Footer from "./components/footer/Footer";
-import Portfolio from "./components/portfolio/Portfolio";
 import './sass/style.scss';
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
           Scroll down for more information
         </Paragraph>
       
-        <Portfolio />
       </div>
         <Footer />
     </Layout>
