@@ -8,7 +8,7 @@ import {
             NavLink,
         } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import Logo from "../../images/logo-yP.png";
+import Logo from "../../images/logo-rB.png";
 import Portfolio from "../portfolio/Portfolio";
 import Contact from "../contact/Contact";
 import Resume from "../resume/Resume";
@@ -17,7 +17,7 @@ function Layout({ children }) {
     return (
         
         <Router>    
-            <Navbar bg="light" variant="light" expand="lg">
+            <Navbar variant="light" expand="lg">
                 <NavLink to="/" exact>
                     <Navbar.Brand to="/"> 
                         <img src={Logo} alt="website logo" />
