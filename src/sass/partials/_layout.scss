@@ -2,7 +2,10 @@ html,
 body {
     height: 100%;
 }
+
 body {
+    display: flex;
+    justify-items: center;
     font-family: $subtitle;
     background: $colourBackground;
     margin: 0;
@@ -10,21 +13,52 @@ body {
 .layout {
     width: 100%;
     max-width: 800px;
+    height: 500px;
     padding: 30px;
     margin: 0 auto;
 }
-.container-fluid {
-    display: flex;
-    flex-direction: column;
+
+#background {
+    background: rgb(21,56,87);
+    background: linear-gradient(90deg, rgba(21,56,87,1) 50%, rgba(21,61,97,1) 60%, rgba(21,65,104,1) 68%, rgba(20,71,114,1) 81%, rgba(0,93,165,1) 100%);
+    color: whitesmoke;
+}
+
+.logo {
+    width: 250px;
+
 }
 img {
-        width: 150px;
-    
+    width: inherit;
+}
+h1 {
+    font-family: $title;
+    background-color: black;
+    opacity: 60%;
+    color: white;
+    padding: 5px;
+    text-shadow: 0.5px 0.5px 3px;
+}
+h3 {
+    padding: 5px;
+    text-shadow: 1px 1px 3px;
+}
+h5 {
+    padding-top: 20px;
+    text-align: right;
+    color: #0f426c;
+    font-weight: bold;
+    text-shadow: 0 3px 3px 0;
 }
 #root {
     display: flex;
     flex-direction: column;
     height: 100vh;
+}
+
+#port-pic {
+    width: 500px;
+    box-shadow: black;
 }
 
 .wrapper {
@@ -34,14 +68,14 @@ img {
 footer {
     flex-shrink: 0;
     display: flex;
-    background: #343a40;
-    color: white;
+    color: $title-background;
     font-size: 15px;
     justify-content: center;
     padding: 0.5em;
 
     a {
         padding-left: 10px;
-        color: white;
+        color: #343a40;
+        font-size: 20px;
     }
 }

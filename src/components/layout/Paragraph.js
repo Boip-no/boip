@@ -2,7 +2,7 @@ import React from "react";
 
 function Paragraph({ children }) {
     
-    return <p>{children}</p>;
+    return <h5>{children}</h5>;
 }
 
 export default Paragraph;

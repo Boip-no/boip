@@ -1,4 +1,5 @@
 import React from 'react'
+import ai from "../../images/ai.png"
 import Carousel from 'react-bootstrap/Carousel'
 
 function Fade({ label1, label2, label3 }) {
@@ -7,7 +8,7 @@ function Fade({ label1, label2, label3 }) {
         <Carousel>
             <Carousel.Item>
                 <img className="d-block w-100"
-                    src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b"
+                    src={ai}
                     alt={label1}
                 />
                 <Carousel.Caption>
