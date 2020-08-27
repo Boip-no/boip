@@ -1,4 +1,5 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import Got from "../../images/got.jpg";
 import Space from "../../images/spaceX.jpg";
@@ -8,9 +9,9 @@ import SM from "../../images/SM3.jpg";
 
 export function Portfolio() {
     return (
-        <div className="container-fluid">
-          <h2>Portfolio</h2>
-          <div id="background" className="row p-5 lg">
+        <Container  className="containter-fluid">
+          <h2 id="portfolio">Portfolio</h2>
+          <div id="background" className="row p-5 lg box-div">
                   <Link className="col-sm-6" to="http://boip.no/FEU2/Semester-project-2/character.html"><img id="port-pic" src={Letah} alt="Screenshot of the website" /></Link>
 
                   <div className="col-sm-6">
@@ -28,7 +29,7 @@ export function Portfolio() {
                   </div>
                   <Link className="col-sm-6" to="http://boip.no/FEU2/Semester-project-2/character.html"><img id="port-pic" src={Got} alt="Screenshot of the website" /></Link>
             </div>
-            <div id="background" className="row p-5">
+            <div id="background" className="row p-5 box-div">
                   <Link className="col-sm-6" to="http://boip.no/FEU2/Semester-project-2/character.html"><img id="port-pic" src={SM} alt="Screenshot of the website" /></Link>
 
                   <div className="col-sm-6">
@@ -39,7 +40,6 @@ export function Portfolio() {
             </div>
 
             <div className="row p-5">                
-                  <Link className="col-sm-6" to="http://boip.no/FEU2/Semester-project-2/character.html"><img id="port-pic" src={Space} alt="Screenshot of the website" /></Link>
                   <div className="col-sm-6">
                     <h4>Space X</h4>
                       <p>Build a microsite for SpaceX and is focused on space technology.</p>
@@ -47,10 +47,9 @@ export function Portfolio() {
                       <p>A microsite is a branded, self-contained site, usually on a its own domain, with a single purpose and a limited number of pages. The purpose can be promotional or editorial, and be may linked to a specific event or period of time. A microsite is usually built as an addition to an existing brand website</p>
                       <p>Click on the picture to see the website</p>
                   </div>
-
-                  
+                  <Link className="col-sm-6" to="http://boip.no/FEU2/Semester-project-2/character.html"><img id="port-pic" src={Space} alt="Screenshot of the website" /></Link>
             </div>
-        </div> /* /container-fluid*/
+        </Container> /* /container-fluid*/
     );
 }
 

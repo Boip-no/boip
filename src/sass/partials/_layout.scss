@@ -1,10 +1,5 @@
 html,
 body {
-    height: 100%;
-}
-
-body {
-    display: flex;
     justify-items: center;
     font-family: $subtitle;
     background: $colourBackground;
@@ -18,30 +13,29 @@ body {
     margin: 0 auto;
 }
 
-#background {
-    background: rgb(21,56,87);
-    background: linear-gradient(90deg, rgba(21,56,87,1) 50%, rgba(21,61,97,1) 60%, rgba(21,65,104,1) 68%, rgba(20,71,114,1) 81%, rgba(0,93,165,1) 100%);
-    color: whitesmoke;
-}
-
 .logo {
     width: 250px;
-
 }
+
 img {
-    width: inherit;
+    width: 250px;
+}
+.box-div {
+    box-shadow: 0px 0px 5px black;
 }
 h1 {
     font-family: $title;
     background-color: black;
-    opacity: 60%;
     color: white;
     padding: 5px;
-    text-shadow: 0.5px 0.5px 3px;
+    box-shadow: 0.5px 0.5px 3px;
+}
+h2 {
+    text-align: center;
+    padding: 15px;
 }
 h3 {
     padding: 5px;
-    text-shadow: 1px 1px 3px;
 }
 h5 {
     padding-top: 20px;
@@ -55,27 +49,7 @@ h5 {
     flex-direction: column;
     height: 100vh;
 }
-
-#port-pic {
-    width: 500px;
-    box-shadow: black;
-}
-
 .wrapper {
     flex: 1 0 auto;
 }
 
-footer {
-    flex-shrink: 0;
-    display: flex;
-    color: $title-background;
-    font-size: 15px;
-    justify-content: center;
-    padding: 0.5em;
-
-    a {
-        padding-left: 10px;
-        color: #343a40;
-        font-size: 20px;
-    }
-}

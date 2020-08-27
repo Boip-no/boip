@@ -1,16 +1,17 @@
 import React from "react";
-import Photo from "../../images/me.png";
+import Photo from "../../images/myklys.jpg";
 
 export function Contact() {
     return(
-            <div id="background" className="container-fluid">
+        <div id="contactBackground" className="box-div">
+            <div className="container-fluid">
                 <div className="container">
                     <div className="row p-5">
                         <div className="col-sm-4">
                             <h3>Jorun Pihl Bratteng</h3>
                             <img src={Photo} alt="This is how I look like" />
-                            <p>47 61 02 82</p>
-                            <p>jorun.p.j@gmail.com</p>
+                            <p><i className="fas fa-mobile-alt"></i> 47 61 02 82</p>
+                            <p><i className="fas fa-at"></i> jorun.p.j@gmail.com</p>
                         </div>
                         <div className=" col-sm-8">
                             <h4>I am a 28 years old frontend-developer student,      graduating October 2020. I am based in Tønsberg, Norway.</h4>
@@ -29,6 +30,7 @@ export function Contact() {
                     </div>
                 </div>
             </div>
+        </div>
     );
 }
 

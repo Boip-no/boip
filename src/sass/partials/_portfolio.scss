@@ -1,0 +1,22 @@
+
+#port-pic {
+    width: 400px;
+    box-shadow: black;
+}
+
+#background {
+    height: 500px;
+    background: rgb(21,56,87);
+    background: linear-gradient(90deg, rgba(21,56,87,1) 50%, rgba(21,61,97,1) 60%, rgba(21,65,104,1) 68%, rgba(20,71,114,1) 81%, rgba(0,93,165,1) 100%);
+    color: whitesmoke;
+}
+#contactBackground {
+    height: 600px;
+    background: rgb(21,56,87);
+    background: linear-gradient(90deg, rgba(21,56,87,1) 50%, rgba(21,61,97,1) 60%, rgba(21,65,104,1) 68%, rgba(20,71,114,1) 81%, rgba(0,93,165,1) 100%);
+    color: whitesmoke;
+}
+
+.col-sm-6 {
+    padding: inherit;
+}
