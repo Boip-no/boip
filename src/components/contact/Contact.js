@@ -8,10 +8,16 @@ export function Contact() {
                 <div className="container">
                     <div className="row p-5">
                         <div className="col-sm-4">
-                            <h3>Jorun Pihl Bratteng</h3>
+                            <h3 id="contact">Jorun Pihl Bratteng</h3>
                             <img src={Photo} alt="This is how I look like" />
-                            <p><i className="fas fa-mobile-alt"></i> 47 61 02 82</p>
-                            <p><i className="fas fa-at"></i> jorun.p.j@gmail.com</p>
+                            <p>
+                                <i className="fas fa-mobile-alt"></i> 
+                                +47 47 61 02 82
+                            </p>
+                            <p>
+                                <i className="fas fa-at"></i> 
+                                jorun.p.j@gmail.com
+                            </p>
                         </div>
                         <div className=" col-sm-8">
                             <h4>I am a 28 years old frontend-developer student,      graduating October 2020. I am based in Tønsberg, Norway.</h4>
@@ -26,8 +32,14 @@ export function Contact() {
                             <p>Best regards</p>
                             
                             <p>Jorun Pihl Bratteng</p>
+                    
                         </div>
                     </div>
+                    <button>
+                        <a href="#top" className="top">
+                            <h5>Top</h5>
+                        </a>
+                    </button>
                 </div>
             </div>
         </div>

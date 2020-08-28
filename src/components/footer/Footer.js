@@ -1,21 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Footer() {
     return (
         <footer>
-            <Link to="https://discord.com/channels/@me"> 
+            <a href="https://discord.com/channels/@me"> 
                 <i className="fab fa-discord"></i>
-            </Link>
-            <Link to="https://github.com/Boip-no"> 
-                <i className="fab fa-github"></i>
-            </Link>
-            <Link to="#"> 
-                <i className="fab fa-twitter-square"></i>
-            </Link>
-            <Link to="#"> 
-                <i className="fab fa-youtube-square"></i>
-            </Link>
+            </a>
+            <a href="https://github.com/Boip-no"> 
+                <i className="fab fa-github-square"></i>
+            </a>
+            <a href="https://www.facebook.com/pihlbratteng?ref=bookmarks"> 
+                <i className="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/jorun-pihl-bratteng-95b61283/"> 
+                <i className="fab fa-linkedin"></i>
+            </a>
         </footer>
     );
 }
