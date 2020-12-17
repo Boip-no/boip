@@ -3,6 +3,7 @@ import Heading from "./components/layout/Heading";
 import Paragraph from "./components/layout/Paragraph";
 import Layout from "./components/layout/Layout";
 import Logo from "./images/logo-bB.png";
+import Button from "react-bootstrap/Button";
 import './sass/style.scss';
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       />
          
       <Paragraph>
-          <a href="#portfolio">See more</a>
+        Take a look at my
+        <a href="#portfolio"><Button style={{backgroundColor: "#343a40", border: "grey"}}>Portfolio</Button></a>
       </Paragraph>
 
     </Layout>
