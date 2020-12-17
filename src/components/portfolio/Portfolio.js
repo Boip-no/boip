@@ -5,6 +5,7 @@ import Space from "../../images/spaceX.jpg";
 import Letah from "../../images/L2.jpg";
 import SM from "../../images/SM3.jpg";
 import mVi from "../../images/mVi.jpg";
+import Vebr from "../../images/vebr.jpg";
 
 
 export function Portfolio() {
@@ -75,6 +76,18 @@ export function Portfolio() {
                     </div>
                     <a className="col-sm-6" href="http://boip.no/FEU2/Design2/MA3-Fonts/index.html">
                       <img id="port-pic" className="box-div" src={mVi} alt="Screenshot of the website" />
+                    </a>
+              </div>
+              <div id="background" className="row p-5 box-div">                
+                    <div className="col-sm-6">
+                      <h4>Vebr</h4>
+                        <p>To take the skills learned over the last two years and take on an extensive project where the finished product should reflect my general development capabilities, in addition to visual and technical skills</p>
+
+                        <p>For this assignment I have the choice to get a real world client that I have accomplished and build a website for.</p>
+                        <p>Click on the picture to see the website</p>
+                    </div>
+                    <a className="col-sm-6" href="https://vebr.netlify.app/">
+                      <img id="port-pic" className="box-div" src={Vebr} alt="Screenshot of the website" />
                     </a>
               </div>
             </div>
