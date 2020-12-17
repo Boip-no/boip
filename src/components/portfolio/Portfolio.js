@@ -14,13 +14,11 @@ export function Portfolio() {
           <h2 id="portfolio">
             Portfolio
           </h2>
-          <div>
-            <div id="background" className="row p-5 lg box-div">
-                    
-
+              <div id="background" className="row p-5 lg box-div">
                     <div className="col-sm-6">
                       <h4>Letah</h4>
                         <p>To put into practice the principles learnt throughout this course and combine them with my skills in HTML, CSS and JavaScript.</p>
+
                         <p>Click on the picture to see the website</p>
                     </div>    
 
@@ -28,11 +26,11 @@ export function Portfolio() {
                       <img id="port-pic" className="box-div" src={Letah} alt="Screenshot of the website" />
                     </a>  
               </div>
-
               <div className="row p-5 lg">
                     <div className="col-sm-6">
                       <h4>GOT Board Game</h4>
                         <p>This semester project was to building an online board game for Game of Thrones. The board game is made by using HTML, CSS and JavaScript.</p>
+
                         <p>Click on the picture to see the website</p>
                     </div>
 
@@ -40,38 +38,12 @@ export function Portfolio() {
                       <img id="port-pic" className="box-div" src={Got} alt="Screenshot of the website" />
                     </a>
               </div>
-          </div>
-          <div className="vh">
-              <div id="background" className="row p-5 box-div">
-                    <div className="col-sm-6">
-                      <h4>Sience Museum</h4>
-                        <p>The project exam is reflected on my creative and technical knowledge and skills based on the first semester curriculum. This includes design principles, project management, communication technology, and developing with HTML/CSS.</p>
-                        <p>Click on the picture to see the website</p>
-                    </div>
-
-                    <a className="col-sm-6" href="http://boip.no/FEU1/SemesterProject/SemesterProject-redo/">
-                      <img id="port-pic" className="box-div" src={SM} alt="Screenshot of the website" />
-                    </a>
-              </div>
-
-              <div className="row p-5">                
-                    <div className="col-sm-6">
-                      <h4>Space X</h4>
-                        <p>Build a microsite for SpaceX and is focused on space technology.</p>
-
-                        <p>A microsite is a branded, self-contained site, usually on a its own domain, with a single purpose and a limited number of pages. The purpose can be promotional or editorial, and be may aed to a specific event or period of time. A microsite is usually built as an addition to an existing brand website</p>
-                        <p>Click on the picture to see the website</p>
-                    </div>
-                    <a className="col-sm-6" href="http://boip.no/FEU1/Exam/index.html">
-                      <img id="port-pic" className="box-div" src={Space} alt="Screenshot of the website" />
-                    </a>
-              </div>
-              <div id="background" className="row p-5 box-div">                
+              <div id="background"  className="row p-5 box-div">
                     <div className="col-sm-6">
                       <h4>Mountain View Interior</h4>
                         <p>Build a interior website and learn how to use Photoshop.</p>
-
                         <p>A microsite is a branded, self-contained site, usually on a its own domain, with a single purpose and a limited number of pages. The purpose can be promotional or editorial, and be may aed to a specific event or period of time. A microsite is usually built as an addition to an existing brand website</p>
+
                         <p>Click on the picture to see the website</p>
                     </div>
                     <a className="col-sm-6" href="http://boip.no/FEU2/Design2/MA3-Fonts/index.html">
@@ -80,17 +52,41 @@ export function Portfolio() {
               </div>
               <div className="row p-5">                
                     <div className="col-sm-6">
+                      <h4>Space X</h4>
+                        <p>Build a microsite for SpaceX and is focused on space technology.</p>
+                        <p>A microsite is a branded, self-contained site, usually on a its own domain, with a single purpose and a limited number of pages. The purpose can be promotional or editorial, and be may aed to a specific event or period of time. A microsite is usually built as an addition to an existing brand website</p>
+
+                        <p>Click on the picture to see the website</p>
+                    </div>
+                    <a className="col-sm-6" href="http://boip.no/FEU1/Exam/index.html">
+                      <img id="port-pic" className="box-div" src={Space} alt="Screenshot of the website" />
+                    </a>
+              </div>
+              <div id="background" className="row p-5 box-div">
+                    <div className="col-sm-6">
+                      <h4>Sience Museum</h4>
+                        <p>The project exam is reflected on my creative and technical knowledge and skills based on the first semester curriculum. This includes design principles, project management, communication technology, and developing with HTML/CSS.</p>
+
+                        <p>Click on the picture to see the website</p>
+                    </div>
+
+                    <a className="col-sm-6" href="http://boip.no/FEU1/SemesterProject/SemesterProject-redo/">
+                      <img id="port-pic" className="box-div" src={SM} alt="Screenshot of the website" />
+                    </a>
+              </div>
+              <div className="row p-5">                
+                    <div className="col-sm-6">
                       <h4>Vebr</h4>
+                        <p>For my final exam I have the choice to get a real world client that I have accomplished and build a website for.</p>
                         <p>To take the skills learned over the last two years and take on an extensive project where the finished product should reflect my general development capabilities, in addition to visual and technical skills</p>
 
-                        <p>For this assignment I have the choice to get a real world client that I have accomplished and build a website for.</p>
                         <p>Click on the picture to see the website</p>
                     </div>
                     <a className="col-sm-6" href="https://vebr.netlify.app/">
                       <img id="port-pic" className="box-div" src={Vebr} alt="Screenshot of the website" />
                     </a>
               </div>
-            </div>
+              
         </Container> /* /container-fluid*/
     );
 }

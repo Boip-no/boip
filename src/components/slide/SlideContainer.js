@@ -1,13 +1,14 @@
 import React from "react";
 import Slide from "./Slide.js";
+import Container from "react-bootstrap/Container";
 
 function SlideContainer() {
 
     return (
-        <div>
+        <Container>
             <h2>Design programs</h2>
             <Slide />
-        </div>
+        </Container>
     );
 }
 

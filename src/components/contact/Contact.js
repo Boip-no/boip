@@ -3,7 +3,7 @@ import Photo from "../../images/myklys.jpg";
 
 export function Contact() {
     return(
-        <div id="contactBackground" className="box-div">
+        <div id="contactBackground" >
             <div className="container-fluid">
                 <div className="container">
                     <div className="row p-5">

@@ -7,6 +7,10 @@
     border-radius: 5px;
 }
 
+.box-div {
+    box-shadow: 0px 0px 5px grey;
+}
+
 #background {
     background: rgb(21,56,87);
     background: linear-gradient(90deg, rgba(21,56,87,1) 50%, rgba(21,61,97,1) 60%, rgba(21,65,104,1) 68%, rgba(20,71,114,1) 81%, rgba(0,93,165,1) 100%);
