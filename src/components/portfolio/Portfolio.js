@@ -10,8 +10,8 @@ import Vebr from "../../images/vebr.jpg";
 
 export function Portfolio() {
     return (
-        <Container className="containter-fluid">
-          <h2 id="portfolio">
+        <Container id="portfolio" className="containter-fluid">
+          <h2 >
             Portfolio
           </h2>
               <div id="background" className="row p-5 lg box-div">

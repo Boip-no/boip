@@ -15,7 +15,7 @@ function App() {
       />
          
       <Paragraph>
-          Scroll down for more information
+          <a href="#portfolio">See more</a>
       </Paragraph>
 
     </Layout>
