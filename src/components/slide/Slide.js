@@ -10,7 +10,7 @@ function Fade({ label1, label2, label3, label4 }) {
     return (
         <Carousel className="flex-container">
             <Carousel.Item>
-                <img className=" p-5"
+                <img className="carousel-img p-5"
                     src={ai}
                     alt={label1}
                 />
@@ -18,7 +18,7 @@ function Fade({ label1, label2, label3, label4 }) {
             
             <Carousel.Item>
                 <img
-                    className=" p-5"
+                    className="carousel-img p-5"
                     src={ps}
                     alt={label2}
                 />
@@ -26,7 +26,7 @@ function Fade({ label1, label2, label3, label4 }) {
 
             <Carousel.Item>
                 <img
-                    className=" p-5"
+                    className="carousel-img p-5"
                     src={xd}
                     alt={label3}
                 />
@@ -34,7 +34,7 @@ function Fade({ label1, label2, label3, label4 }) {
 
             <Carousel.Item>
                 <img
-                    className=" p-5"
+                    className="carousel-img p-5"
                     src={react}
                     alt={label4}
                 />
