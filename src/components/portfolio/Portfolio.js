@@ -78,7 +78,7 @@ export function Portfolio() {
                       <img id="port-pic" className="box-div" src={mVi} alt="Screenshot of the website" />
                     </a>
               </div>
-              <div id="background" className="row p-5 box-div">                
+              <div className="row p-5">                
                     <div className="col-sm-6">
                       <h4>Vebr</h4>
                         <p>To take the skills learned over the last two years and take on an extensive project where the finished product should reflect my general development capabilities, in addition to visual and technical skills</p>
