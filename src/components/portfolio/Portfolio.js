@@ -81,6 +81,26 @@ export function Portfolio() {
                         <p>To take the skills learned over the last two years and take on an extensive project where the finished product should reflect my general development capabilities, in addition to visual and technical skills</p>
 
                         <p>Click on the picture to see the website</p>
+
+                        <p>For more information about the process of the project.
+                          <ul>
+                            <li>
+                              <a href="https://xd.adobe.com/view/a008797d-8ede-4569-a4ee-eb76093504ad-f55b/">
+                                Style Guide
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://xd.adobe.com/view/1d4f6db8-19b7-4211-92b8-ab01db9cbaa7-481c/">
+                                Wireframe
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://xd.adobe.com/view/175b6e46-e07b-4b89-8732-5ef1e9d69d89-4208/">
+                              Prototype
+                              </a>
+                            </li>
+                          </ul>
+                        </p>
                     </div>
                     <a className="col-sm-6" href="https://vebr.netlify.app/">
                       <img id="port-pic" className="box-div" src={Vebr} alt="Screenshot of the website" />
